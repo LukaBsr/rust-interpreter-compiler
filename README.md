@@ -1,6 +1,4 @@
-# Introduction
-
-**#Simple Practice Language (SPL)**
+**# Simple Practice Language (SPL)**
 
 ## Fonctionnalités
 
