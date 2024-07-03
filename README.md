@@ -1,32 +1,37 @@
 # Simple Practice Language (SPL)
 
-## Fonctionnalités
+SPL is a minimalistic programming language designed for practice and learning purposes. It aims to provide a straightforward syntax and basic programming constructs, making it easy to understand and implement.
 
-- **Variables:** Support pour les types entier (`int`) et booléen (`bool`).
-- **Fonctions:** Définir et appeler des fonctions avec des paramètres et des valeurs de retour.
-- **Contrôle de flux:** Instructions conditionnelles (`if-else`) et boucles (`while`).
-- **Entrée/Sortie:** Opérations basiques d'entrée et de sortie.
-- **Commentaires:** Commentaires sur une seule ligne (`//`) et sur plusieurs lignes (`/* */`) pris en charge.
-- **Constantes:** Déclarer des constantes en utilisant `const`.
+## Features
 
-## Exemple
+- **Variables:** Support for integer (`int`) and boolean (`bool`) types.
+- **Functions:** Define and call functions with parameters and return values.
+- **Control Flow:** Conditional statements (`if-else`) and loops (`while`).
+- **Input/Output:** Basic input and output operations.
+- **Comments:** Single-line (`//`) and multi-line (`/* */`) comments supported.
+- **Constants:** Declare constants using `const`.
+- **New Keywords:** Introduced `box` for variable declaration and `back` for return statement.
 
-Voici un programme simple en **SPL** :
+## Example
+
+Here’s an updated example program in SPL with the new keywords:
 
 ```rust
-// Exemple de langage de pratique simple
+// Simple practice language example with new keywords
 
 fn main() {
-    let x = 10;
-    let y = 20;
-    let result = add(x, y);
+    box x = 10;
+    box y = 20;
+    box result = add(x, y);
     print(result);
 }
 
 fn add(a: int, b: int) -> int {
-    return a + b;
+    back a + b;
 }
 
 fn print(value: int) {
-    println("Le résultat est : ", value);
+    // Print function for outputting the value
+    // For simplicity, we'll just print to console
+    println("Result is: ", value);
 }
