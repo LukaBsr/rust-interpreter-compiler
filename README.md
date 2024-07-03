@@ -1,4 +1,4 @@
-**# Simple Practice Language (SPL)**
+# Simple Practice Language (SPL)
 
 ## Fonctionnalités
 
@@ -28,7 +28,5 @@ fn add(a: int, b: int) -> int {
 }
 
 fn print(value: int) {
-    // Fonction d'impression pour afficher la valeur
-    // Pour simplifier, nous allons simplement imprimer sur la console
     println("Le résultat est : ", value);
 }
