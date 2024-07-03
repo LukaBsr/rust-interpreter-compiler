@@ -34,7 +34,8 @@ fn print(value: int) {
     // Print function for outputting the value
     // For simplicity, we'll just print to console
     println("Result is: ", value);
-}```
+}
+```
 
 ## Getting Started
 
@@ -46,6 +47,13 @@ To run programs written in SPL:
 2. **Clone Repository:**
    ```bash
    git clone <repository-url>
-   cd spl-interpreter```
+   cd spl-interpreter
+   ```
 
-3.
+3. **Compile and Run:**
+    - Compile the interpreter (if implemented) or interpreter stub.
+    - Execute SPL programs using the interpreter.
+  
+'. **Modify and Experiment:**
+    - Modify the language implementation to add new features or improve existing ones.
+    - Experiment with different syntax or constructs to deepen your understanding.
